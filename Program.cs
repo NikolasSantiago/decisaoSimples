@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-string senhaDigitada;
+﻿string senhaDigitada;
 string senhaEsperada = "110209";
 string idConta;
 string idEsperado = "_.santizx";
@@ -23,7 +21,7 @@ Console.ResetColor();
 if(senhaDigitada == senhaEsperada)
 
 { Console.ForegroundColor = ConsoleColor.DarkBlue;
-Console.WriteLine("olá usuário login com sucesso");
+Console.WriteLine("olá usuário, login com sucesso");
 }
 else
 
